@@ -1,10 +1,11 @@
 
 # sms-course-project 7
 
-### reating the project 7
+### Creating the project 7
 
 1. create a GitHub Repository
 2. Add ROS gitignore file & Readme.md files. 
+![image](https://user-images.githubusercontent.com/8993081/166431770-4f91e04e-cfc0-44b6-9784-6636e8056a30.png)
 
 ```bash
 ros@ubuntu:~/catkin_ws$ git clone https://github.com/online-courses-materials/sms-project7.git
@@ -461,33 +462,6 @@ ros@ubuntu:~/catkin_ws/sms-project7$ rostopic list
 ### Create new Tab for Running Action Client Code
 ```bash
 ros@ubuntu:~/catkin_ws/sms-project7$ source devel/setup.sh 
-
-
-```
-
-### Create new Tab for Running ROS RQT (creating a publisher)
-
-
-```bash
-ros@ubuntu:~/catkin_ws/sms-project7$ rostopic echo /ro
-/robot_position  /rosout          /rosout_agg      
-ros@ubuntu:~/catkin_ws/sms-project7$ rostopic echo /robot_position 
-x: 0.0
-y: 0.0
-z: 0.0
----
-x: 0.0
-y: 0.0
-z: 0.0
----
-x: 0.0
-y: 0.0
-z: 0.0
----
-x: 0.0
-y: 0.0
-z: 0.0
----
 ros@ubuntu:~/catkin_ws/sms-project7$ rosrun project7 action_client 
 
 Enter the X-Coordinate: 2
@@ -511,6 +485,34 @@ Finished.
 Time Elapsed: 0.000168324
 
 Enter the X-Coordinate: 
+
+```
+
+### Create new Tab for Running ROS RQT (creating a publisher)
+![image](https://user-images.githubusercontent.com/8993081/166431873-cb7ddf74-6225-4049-9911-45f3f833239d.png)
+
+
+```bash
+ros@ubuntu:~/catkin_ws/sms-project7$ rostopic echo /ro
+/robot_position  /rosout          /rosout_agg      
+ros@ubuntu:~/catkin_ws/sms-project7$ rostopic echo /robot_position 
+x: 0.0
+y: 0.0
+z: 0.0
+---
+x: 0.0
+y: 0.0
+z: 0.0
+---
+x: 0.0
+y: 0.0
+z: 0.0
+---
+x: 0.0
+y: 0.0
+z: 0.0
+---
+
 
 
 ```
