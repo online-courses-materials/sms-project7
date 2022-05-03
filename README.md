@@ -1,11 +1,11 @@
 
 # sms-course-project 7
 
+![image](https://user-images.githubusercontent.com/8993081/166431770-4f91e04e-cfc0-44b6-9784-6636e8056a30.png)
 ### Creating the project 7
 
 1. create a GitHub Repository
 2. Add ROS gitignore file & Readme.md files. 
-![image](https://user-images.githubusercontent.com/8993081/166431770-4f91e04e-cfc0-44b6-9784-6636e8056a30.png)
 
 ```bash
 ros@ubuntu:~/catkin_ws$ git clone https://github.com/online-courses-materials/sms-project7.git
