@@ -4,7 +4,7 @@ System and ROS Setup: The script updates the system and installs ROS Noetic.
 Workspace and Package Creation: It sets up a workspace and a package tailored for C++ development with action functionality.
 Action Definition and Compilation: Defines a custom action for a complex task and ensures all components are built.
 Server and Client Code: Includes simple C++ templates for an action server and client that communicate over a custom action, showcasing the complete lifecycle of a ROS action.
-Testing and Advanced Interaction: Instructs on how to test the setup and provides guidance on using ROS's command-line tools for deeper interaction and monitoring.
+Testing and Advanced Interaction: Instructs on how to test the setup and provides guidance on using ROS command-line tools for deeper interaction and monitoring.
 '
 # Author: Prof. Mehdi Pirahandeh
 # ROS script focusing on ROS Actions using C++.
